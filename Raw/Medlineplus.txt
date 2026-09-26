@@ -1,0 +1,249 @@
+1. Malaria
+    Fever
+    Chills
+    Fatigue
+    Headache
+    Muscle pain
+    Nausea and vomiting
+
+-------------------------------------------------
+2. Dengue
+    high fever
+    Nausea and vomiting
+    Rash
+    Eye pain, typically behind the eyes
+    Headache
+    Joint, bone or muscle pain
+
+-------------------------------------------------
+3. Paralysis (Brain Hemorrhage)
+  face droop
+  paralyis of arms and legs
+  speech slurred or strange
+  Numbness 	
+  Confusion 	
+  Trouble Seeing 	
+  Trouble Walking
+  Dizziness
+  loss of balance or coordination
+  Severe Headache
+-------------------------------------------------
+4. Pneumonia
+    Fever
+    Chills
+    Cough, usually with phlegm (a type of thick mucus made in your lungs)
+    Shortness of breath
+    Chest pain when you breathe or cough
+    Nausea and/or vomiting
+    Diarrhea
+    feeling weak
+    confusion
+
+-------------------------------------------------
+5. Diabetes
+    Increased thirst
+    Frequent urination
+    Increased hunger
+    Fatigue
+    Blurred vision
+    Unexplained weight loss
+    Sores that are slow to heal
+    Numbness or tingling in your feet
+
+-------------------------------------------------
+6. Arthritis
+  Joint pain or stiffness
+  Joint tenderness, redness, and warmth.
+  Joint swelling
+  Fatigue, fever, and a loss of appetite.
+  Hard bumps (rheumatoid nodules) under your skin near the joints
+-------------------------------------------------
+7. Migraine
+    Temporary blind spots or colored spots
+    Blurred vision
+    Eye pain
+    Seeing stars, zigzag lines, or flashing lights
+    Tunnel vision
+    Chills
+    Increased urination
+    Fatigue
+    Loss of appetite
+    Nausea and vomiting
+    Sensitivity to light or sound
+    Sweating 
+    
+-------------------------------------------------
+8. Allergy
+  red eyes
+  itching
+  sneezing
+  congestion
+  runny nose
+  cough
+  sore throat
+
+-------------------------------------------------
+9. Typhoid
+    high fever
+    Bloody stools
+    Chills
+    Agitation, confusion, delirium, seeing or hearing things that are not there (hallucinations)
+    Difficulty paying attention (attention deficit)
+    Nosebleeds
+    Severe fatigue
+    Slow, sluggish, weak feeling 
+-------------------------------------------------
+10. Chickenpox
+
+    A red, blistering rash
+    Fever
+    Headache
+    Sore throat
+    Fever
+    Tiredness
+    Loss of appetite
+    chills
+    upset stomach
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+*********** MAPING *****************
+1. Malaria
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Fever → high_fever
+    Chills → chills
+    Fatigue → fatigue
+    Headache → headache
+    Muscle pain → muscle_pain
+    Nausea and vomiting → nausea, vomiting
+
+
+
+2. Dengue
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    high fever → high_fever
+    Nausea and vomiting → nausea, vomiting
+    Rash → skin_rash
+    Eye pain, typically behind the eyes → pain_behind_the_eyes
+    Headache → headache
+    Joint, bone or muscle pain → joint_pain, muscle_pain, back_pain
+
+
+
+3. Paralysis (Brain Hemorrhage)
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    face droop → no match found
+    paralyis of arms and legs → weakness_of_one_body_side
+    speech slurred or strange → altered_sensorium
+    Numbness → no match found
+    Confusion → altered_sensorium
+    Trouble Seeing → blurred_and_distorted_vision
+    Trouble Walking → no match found
+    Dizziness → no match found
+    loss of balance or coordination → no match found
+    Severe Headache → headache
+
+
+
+4. Pneumonia
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Fever → high_fever
+    Chills → chills
+    Cough, usually with phlegm (a type of thick mucus made in your lungs) → cough, rusty_sputum
+    Shortness of breath → breathlessness, fast_heart_rate
+    Chest pain when you breathe or cough → chest_pain
+    Nausea and/or vomiting → nausea, vomiting
+    Diarrhea → diarrhoea
+    feeling weak → muscle_weakness
+    confusion → altered_sensorium
+
+
+5. Diabetes
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Increased thirst → no match found
+    Frequent urination → polyuria
+    Increased hunger → increased_appetite
+    Fatigue → fatigue
+    Blurred vision → blurred_and_distorted_vision
+    Unexplained weight loss → weight_loss
+    Sores that are slow to heal → no match found
+    Numbness or tingling in your feet → no match found
+
+
+6. Arthritis
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Joint pain or stiffness → joint_pain, movement_stiffness
+    Joint tenderness, redness, and warmth → joint_pain
+    Joint swelling → swelling_joints
+    Fatigue, fever, and a loss of appetite → fatigue, high_fever, loss_of_appetite
+    Hard bumps (rheumatoid nodules) under your skin near the joints → no match found
+
+
+
+7. Migraine
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Temporary blind spots or colored spots → visual_disturbances
+    Blurred vision → blurred_and_distorted_vision
+    Eye pain → pain_behind_the_eyes
+    Seeing stars, zigzag lines, or flashing lights → blurred_and_distorted_vision
+    Tunnel vision → no match found
+    Chills → chills
+    Increased urination → polyuria
+    Fatigue → fatigue
+    increased appetite → excessive_hunger
+    Nausea and vomiting → nausea, vomiting, acidity
+    Sensitivity to light or sound → irritability
+    Sweating → sweating
+
+
+
+8. Allergy
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    red eyes → watering_from_eyes
+    itching → itching
+    sneezing → continuous_sneezing
+    congestion → no match found
+    runny nose → no match found
+    cough → cough
+    sore throat → no match found
+
+
+9. Typhoid
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    high fever → high_fever
+    Bloody stools → no match found
+    Chills → chills
+    Agitation, confusion, delirium, seeing or hearing things that are not there (hallucinations) → altered_sensorium, toxic_look_(typhos)
+    Difficulty paying attention (attention deficit) → no match found
+    Nosebleeds → no match found
+    Severe fatigue → fatigue
+    Slow, sluggish, weak feeling → abdominal_pain, belly_pain
+
+
+10. Chickenpox
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    A red, blistering rash → skin_rash, red_spots_over_body
+    Fever → mild_fever
+    Headache → headache
+    Sore throat → no match found
+    Fever → mild_fever (already mapped)
+    Tiredness → fatigue
+    Loss of appetite → loss_of_appetite
+    chills → chills
+    upset stomach → nausea
+

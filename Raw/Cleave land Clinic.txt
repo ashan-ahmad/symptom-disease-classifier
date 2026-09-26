@@ -1,0 +1,276 @@
+1. Malaria
+    Fever and sweating
+    Chills
+    Headache and muscle aches
+    Fatigue
+    Chest pain
+    Difficulty breathing
+    Cough
+    Diarrhea
+    Nausea and vomiting
+    Seizures
+-------------------------------------------------
+2. Dengue
+  high fever 
+    Rash.
+    Intense pain behind your eyes.
+    Nausea or vomiting.
+    Muscle, bone and joint pain.
+    Stomach/abdominal pain.
+    Frequent vomiting.
+    Throwing up blood or blood in your poop (stool).
+    Nose bleeds or bleeding gums.
+    Extreme tiredness, restlessness or irritability.
+-------------------------------------------------
+3. Paralysis (Brain Hemorrhage)
+    Sudden numbness or weakness of the face, arm or leg (especially on one side of the body)
+    Sudden confusion, trouble speaking or understanding speech
+    Sudden trouble seeing in one or both eyes
+    Sudden trouble walking, dizziness, loss of balance or coordination
+    Sudden severe headache with no known cause
+
+-------------------------------------------------
+4. Pneumonia
+    High fever (up to 105 F or 40.55 C).
+    Cough with yellow, green or bloody mucus.
+    Tiredness (fatigue).
+    Rapid breathing.
+    Shortness of breath.
+    Rapid heart rate.
+    Sweating or chills.
+    Chest pain and/or abdominal pain, especially with coughing or deep breathing.
+    Loss of appetite.
+    Bluish skin, lips or nails (cyanosis).
+    Confusion or altered mental state.
+-------------------------------------------------
+5. Diabetes
+    Fatigue (feeling weak, tired).
+    Increased urination.
+    Increased hunger (especially after eating).
+    Increased thirst.
+    Dry and itchy skin.
+    Skin infections.
+    Dry mouth.
+    Change in vision.
+    Slow healing wounds/cuts.
+    Unexplained weight loss or weight gain (not related to eating habits).
+
+-------------------------------------------------
+6. Arthritis
+    Joint pain.
+    Stiffness or reduced range of motion (how far you can move a joint).
+    Swelling (inflammation).
+    Skin discoloration.
+    Tenderness or sensitivity to touch around a joint.
+    A feeling of heat or warmth near your joints.
+-------------------------------------------------
+7. Migraine
+    Pain on one side (left or right) of your head.
+    Pain that has a pulsing or pounding feel.
+    Pain that’s moderate or severe.
+    Pain that worsens with even basic levels of activity (such as walking or using stairs) or makes you avoid activity.
+
+A headache phase that involves at least one of the following:
+
+    Nausea.
+    Vomiting.
+    Both light sensitivity (photophobia) and sound sensitivity (phonophobia).
+
+Migraine with aura
+
+
+    Visual (flashing lights, haze, zig-zag-like areas around the center of your vision or other vision changes).
+    Touch (tingling or numbness).
+    Speech/language (difficulty speaking or understanding what others say).
+    Motor (hemiplegia, which is one-sided weakness or paralysis, affecting your body and/or face).
+    Brainstem (loss of coordination, balance issues, vertigo, tinnitus or digestive problems like diarrhea or constipation).
+    Retinal (one-sided blindness, either partial or total, or shimmering areas).
+-------------------------------------------------
+8. Allergy
+    Nasal stuffiness (congestion), sneezing and runny nose.
+    Itchy nose, throat and eyes.
+    Red or watery eyes.
+    Headaches, sinus pressure and dark circles under your eyes.
+    More mucus in your nose and throat.
+    Tiredness.
+    Sore throat from mucus dripping down your throat (postnasal drip).
+    Wheezing, coughing and trouble breathing.
+-------------------------------------------------
+9. Typhoid
+    high fever
+    Headache.
+    Chills.
+    Loss of appetite.
+    Stomach (abdominal) pain.
+    “Rose spots” rash, or faint pink spots, usually on your chest or stomach.
+    Cough.
+    Muscle aches.
+    Nausea, vomiting.
+    Diarrhea or constipation.
+-------------------------------------------------
+10. Chickenpox
+    Low-grade fever.
+    Feeling tired.
+    Headache.
+    A stomachache that makes you not want to eat.
+    A skin rash that’s very itchy and looks like many small blisters.
+    Bumps filled with a liquid that looks like milky water.
+    Scabs after the blisters break.
+    Skin that looks blotchy.
+    Crusty spots that fade away.
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+*********** MAPING *****************
+1. Malaria
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Fever and sweating → high_fever, sweating
+    Chills → chills
+    Headache and muscle aches → headache, muscle_pain
+    Fatigue → fatigue
+    Chest pain → chest_pain
+    Difficulty breathing → breathlessness
+    Cough → cough
+    Diarrhea → diarrhoea
+    Nausea and vomiting → nausea, vomiting
+    Seizures → no match found
+
+
+
+2. Dengue
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    high fever → high_fever
+    Rash → skin_rash
+    Intense pain behind your eyes → pain_behind_the_eyes
+    Nausea or vomiting → nausea, vomiting
+    Muscle, bone and joint pain → muscle_pain, joint_pain, back_pain
+    Stomach/abdominal pain → abdominal_pain
+    Frequent vomiting → vomiting
+    Throwing up blood or blood in your poop (stool) → no match found
+    Nose bleeds or bleeding gums → no match found
+    Extreme tiredness, restlessness or irritability → fatigue, restlessness, irritability
+
+
+
+3. Paralysis (Brain Hemorrhage)
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Sudden numbness or weakness of the face, arm or leg (especially on one side of the body) → weakness_of_one_body_side
+    Sudden confusion, trouble speaking or understanding speech → altered_sensorium
+    Sudden trouble seeing in one or both eyes → blurred_and_distorted_vision
+    Sudden trouble walking, dizziness, loss of balance or coordination → no match found
+    Sudden severe headache with no known cause → headache
+
+
+
+4. Pneumonia
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    High fever (up to 105 F or 40.55 C) → high_fever
+    Cough with yellow, green or bloody mucus → cough, rusty_sputum
+    Tiredness (fatigue) → fatigue
+    Rapid breathing → breathlessness
+    Shortness of breath → breathlessness
+    Rapid heart rate → fast_heart_rate
+    Sweating or chills → sweating, chills
+    Chest pain and/or abdominal pain, especially with coughing or deep breathing → chest_pain, abdominal_pain
+    Loss of appetite → loss_of_appetite
+    Bluish skin, lips or nails (cyanosis) → no match found
+    Confusion or altered mental state → altered_sensorium
+
+
+
+5. Diabetes
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Fatigue (feeling weak, tired) → fatigue
+    Increased urination → polyuria
+    Increased hunger (especially after eating) → increased_appetite
+    Increased thirst → no match found
+    Dry and itchy skin → itching
+    Skin infections → no match found
+    Dry mouth → no match found
+    Change in vision → blurred_and_distorted_vision
+    Slow healing wounds/cuts → no match found
+    Unexplained weight loss or weight gain (not related to eating habits) → weight_loss
+
+    
+
+6. Arthritis
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Joint pain → joint_pain
+    Stiffness or reduced range of motion (how far you can move a joint) → movement_stiffness
+    Swelling (inflammation) → swelling_joints
+    Skin discoloration → no match found
+    Tenderness or sensitivity to touch around a joint → joint_pain
+    A feeling of heat or warmth near your joints → no match found
+
+    
+
+7. Migraine
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Pain on one side (left or right) of your head → headache, stiff_neck
+    Pain that has a pulsing or pounding feel → headache
+    Pain that’s moderate or severe → headache
+    Pain that worsens with even basic levels of activity (such as walking or using stairs) or makes you avoid activity → irritability
+    Nausea → nausea
+    Vomiting → vomiting
+    Both light sensitivity (photophobia) and sound sensitivity (phonophobia) → no match found
+    Visual (flashing lights, haze, zig-zag-like areas around the center of your vision or other vision changes) → visual_disturbances
+    Touch (tingling or numbness) → no match found
+    Speech/language (difficulty speaking or understanding what others say) → altered_sensorium
+    Motor (hemiplegia, which is one-sided weakness or paralysis, affecting your body and/or face) → weakness_of_one_body_side
+    Brainstem (loss of coordination, balance issues, vertigo, tinnitus or digestive problems like diarrhea or constipation) → diarrhoea, constipation, acidity
+    Retinal (one-sided blindness, either partial or total, or shimmering areas) → visual_disturbances
+
+
+
+8. Allergy
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Nasal stuffiness (congestion), sneezing and runny nose → continuous_sneezing
+    Itchy nose, throat and eyes → itching
+    Red or watery eyes → watering_from_eyes
+    Headaches, sinus pressure and dark circles under your eyes → headache
+    More mucus in your nose and throat → no match found
+    Tiredness → fatigue
+    Sore throat from mucus dripping down your throat (postnasal drip) → no match found
+    Wheezing, coughing and trouble breathing → cough, breathlessness
+
+
+9. Typhoid
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    high fever → high_fever
+    Headache → headache
+    Chills → chills
+    Loss of appetite → loss_of_appetite
+    Stomach (abdominal) pain → abdominal_pain
+    “Rose spots” rash, or faint pink spots, usually on your chest or stomach → red_spots_over_body
+    Cough → cough
+    Muscle aches → muscle_pain
+    Nausea, vomiting → nausea, vomiting
+    Diarrhea or constipation → diarrhoea, constipation
+
+
+    
+
+10. Chickenpox
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Low-grade fever → mild_fever
+    Feeling tired → fatigue
+    Headache → headache
+    A stomachache that makes you not want to eat → loss_of_appetite
+    A skin rash that’s very itchy and looks like many small blisters → skin_rash, itching
+    Bumps filled with a liquid that looks like milky water → no match found
+    Scabs after the blisters break → no match found
+    Skin that looks blotchy → no match found
+    Crusty spots that fade away → 'red_spots_over_body'

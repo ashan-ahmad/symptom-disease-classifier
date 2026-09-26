@@ -1,0 +1,277 @@
+1. Malaria
+    Fever
+    Chills
+    General feeling of discomfort
+    Headache
+    Nausea and vomiting
+    Diarrhea
+    Abdominal pain
+    Muscle or joint pain
+    Fatigue
+    Rapid breathing
+    Rapid heart rate
+    Cough
+
+-------------------------------------------------
+2. Dengue
+
+    Headache
+    Muscle, bone or joint pain
+    Nausea
+    Vomiting
+    Pain behind the eyes
+    Swollen glands
+    Rash
+
+-------------------------------------------------
+3. Paralysis (Brain Hemorrhage)
+  Trouble speaking and understanding
+  Numbness
+  weakness
+  paralysis in the face, arm or leg
+  Problems seeing in one or both eyes
+  Headache
+  Trouble walking
+-------------------------------------------------
+4. Pneumonia
+
+    Chest pain
+    Confusion
+    Cough
+    phlegm.
+    Fatigue.
+    Fever
+    sweating
+    chills.
+    Lower than normal body temperature 
+    Nausea
+    vomiting
+    diarrhea.
+    Shortness of breath.
+
+-------------------------------------------------
+5. Diabetes
+    Feeling more thirsty than usual.
+    Urinating often.
+    Losing weight without trying.
+    Presence of ketones in the urine
+    Feeling tired and weak.
+    Feeling irritable or having other mood changes.
+    Having blurry vision.
+    Having slow-healing sores.
+    Getting a lot of infections, such as gum, skin and vaginal infections.
+
+-------------------------------------------------
+6. Arthritis
+  
+    Pain
+    Stiffness
+    Swelling
+    Redness
+    Decreased range of motion
+
+-------------------------------------------------
+7. Migraine
+
+    Constipation.
+    Mood changes, from depression to euphoria.
+    Food cravings.
+    Neck stiffness.
+    Increased urination.
+    Fluid retention.
+    Frequent yawning.
+    Visual phenomena, such as seeing various shapes, bright spots or flashes of light.
+    Vision loss.
+    Pins and needles sensations in an arm or leg.
+    Weakness or numbness in the face or one side of the body.
+    Difficulty speaking.
+
+-------------------------------------------------
+8. Allergy
+
+    Sneezing.
+    Itching of the skin, nose, eyes or roof of the mouth.
+    Runny, stuffy nose.
+    Tiredness, also called fatigue.
+    Watery, red or swollen eyes, also called allergic conjunctivitis.
+
+-------------------------------------------------
+9. Typhoid
+
+    Fever that starts low and increases throughout the day, possibly reaching as high as 104 degrees Fahrenheit
+    Chills.
+    Headache.
+    Weakness
+    fatigue.
+    Muscle aches.
+    Stomach pain.
+    Diarrhea
+    constipation.
+    Rash.
+
+-------------------------------------------------
+10. Chickenpox
+
+    Fever.
+    Loss of appetite.
+    Headache.
+    Tiredness and a general feeling of being unwell.
+rash
+    Raised bumps called papules, which break out over a few days.
+    Small fluid-filled blisters called vesicles, which form in about one day and then break and leak.
+    Crusts and scabs, which cover the broken blisters and take a few more days to heal.
+
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+*********** MAPING *****************
+1. Malaria
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Fever → high_fever
+    Chills → chills
+    General feeling of discomfort → malaise
+    Headache → headache
+    Nausea and vomiting → nausea, vomiting
+    Diarrhea → diarrhoea
+    Abdominal pain → abdominal_pain
+    Muscle or joint pain → muscle_pain, joint_pain
+    Fatigue → fatigue
+    Rapid breathing → breathlessness
+    Rapid heart rate → fast_heart_rate
+    Cough → cough
+
+
+
+2. Dengue
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Headache → headache
+    Muscle, bone or joint pain → muscle_pain, joint_pain, back_pain
+    Nausea → nausea
+    Vomiting → vomiting
+    Pain behind the eyes → pain_behind_the_eyes
+    Swollen glands → swelled_lymph_nodes
+    Rash → skin_rash
+
+
+
+3. Paralysis (Brain Hemorrhage)
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Trouble speaking and understanding → altered_sensorium
+    Numbness → no match found
+    weakness → muscle_weakness
+    paralysis in the face, arm or leg → weakness_of_one_body_side
+    Problems seeing in one or both eyes → blurred_and_distorted_vision
+    Headache → headache
+    Trouble walking → no match found
+
+
+
+4. Pneumonia
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Chest pain → chest_pain
+    Confusion → altered_sensorium
+    Cough → cough
+    phlegm → phlegm, rusty_sputum
+    Fatigue → fatigue
+    Fever → high_fever
+    sweating → sweating
+    chills → chills
+    Lower than normal body temperature → no match found
+    Nausea → nausea
+    vomiting → vomiting
+    diarrhea → diarrhoea
+    Shortness of breath → breathlessness, fast_heart_rate
+
+
+
+5. Diabetes
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Feeling more thirsty than usual → no match found
+    Urinating often → polyuria
+    Losing weight without trying → weight_loss, increased_appetite
+    Presence of ketones in the urine → no match found
+    Feeling tired and weak → fatigue, restlessness, lethargy
+    Feeling irritable or having other mood changes → irritability
+    Having blurry vision → blurred_and_distorted_vision
+    Having slow-healing sores → no match found
+    Getting a lot of infections, such as gum, skin and vaginal infections → no match found
+
+
+6. Arthritis
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Pain → joint_pain
+    Stiffness → movement_stiffness
+    Swelling → swelling_joints
+    Redness → no match found
+    Decreased range of motion → painful_walking
+
+
+
+7. Migraine
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Constipation → constipation
+    Mood changes, from depression to euphoria → depression, irritability
+    Food cravings → excessive_hunger
+    Neck stiffness → stiff_neck
+    Increased urination → polyuria
+    Fluid retention → no match found
+    Frequent yawning → no match found
+    Visual phenomena, such as seeing various shapes, bright spots or flashes of light → visual_disturbances
+    Vision loss → blurred_and_distorted_vision
+    Pins and needles sensations in an arm or leg → irritability
+    Weakness or numbness in the face or one side of the body → weakness_of_one_body_side
+    Difficulty speaking → altered_sensorium
+
+
+8. Allergy
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Sneezing → continuous_sneezing
+    Itching of the skin, nose, eyes or roof of the mouth → itching
+    Runny, stuffy nose → no match found
+    Tiredness, also called fatigue → fatigue
+    Watery, red or swollen eyes, also called allergic conjunctivitis → watering_from_eyes
+
+
+
+9. Typhoid
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Fever that starts low and increases throughout the day, possibly reaching as high as 104 degrees Fahrenheit → high_fever
+    Chills → chills
+    Headache → headache
+    Weakness → muscle_weakness
+    fatigue → fatigue
+    Muscle aches → muscle_pain
+    Stomach pain → abdominal_pain, belly_pain
+    Diarrhea → diarrhoea
+    constipation → constipation
+    Rash → skin_rash
+
+
+    
+
+10. Chickenpox
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Fever → mild_fever
+    Loss of appetite → loss_of_appetite
+    Headache → headache
+    Tiredness and a general feeling of being unwell → fatigue, malaise
+    rash → skin_rash
+    Raised bumps called papules, which break out over a few days → skin_rash
+    Small fluid-filled blisters called vesicles, which form in about one day and then break and leak → red_spots_over_body
+    Crusts and scabs, which cover the broken blisters and take a few more days to heal → no match found
+
+    

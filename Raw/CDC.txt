@@ -1,0 +1,205 @@
+1. Malaria
+  Fever
+  flu-like illness
+  Chills
+  Headache
+  muscle aches
+  tiredness
+  Nausea
+  vomiting
+  diarrhea
+
+-------------------------------------------------
+2. Dengue
+  fever
+  eye pain typically behind the eyes
+  muscle pain
+  joint pain
+  bone pain
+  Nausea
+  vomiting
+  Rash
+-------------------------------------------------
+3. Paralysis (Brain Hemorrhage) (NHLBI.NIH)
+  mild weakness
+  paralysis
+  numbness on one side of the face or body
+  headache
+  sudden weakness
+  trouble seeing
+  trouble speaking or understanding speech.
+-------------------------------------------------
+4. Pneumonia
+  Cough
+  Fever
+  Headache
+  Malaise
+  Coryza without concomitant fever
+  Diarrhea
+  Vomiting
+  Wheezing
+-------------------------------------------------
+5. Diabetes
+
+    Urinate (pee) a lot, often at night
+    Are very thirsty
+    Lose weight without trying
+    Are very hungry
+    Have blurry vision
+    Have numb or tingling hands or feet
+    Feel very tired
+    Have very dry skin
+    Have sores that heal slowly
+    Have more infections than usual
+
+
+-------------------------------------------------
+6. Arthritis
+  joint pain
+  stiffness
+  Muscle pain
+  Painful walking
+-------------------------------------------------
+7. Migraine
+   headache
+   nausea
+   dizziness
+   fever
+   general malaise
+-------------------------------------------------
+8. Allergy
+    Itchy, watery eyes.
+    Itchy nose.
+    Sneezing.
+    Runny nose.
+    Rashes.
+    Hives (a rash with raised red patches)
+    Stomach cramps.
+    Vomiting.
+-------------------------------------------------
+9. Typhoid
+    Fever
+    Weakness
+    Stomach pain
+    Headache
+    Constipation or diarrhea
+    Cough
+    Loss of appetite
+-------------------------------------------------
+10. Chickenpox
+  rash
+  Fever
+  Tiredness
+  Loss of appetite
+  Headache
+  red spots
+  mild fever
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+*********** MAPING *****************
+1. Malaria
+
+    Fever → high_fever
+    flu-like illness → no match found
+    Chills → chills
+    Headache → headache
+    muscle aches → muscle_pain
+    tiredness → fatigue
+    Nausea → nausea
+    vomiting → vomiting
+    diarrhea → diarrhoea
+
+2. Dengue
+
+    fever → high_fever
+    eye pain typically behind the eyes → pain_behind_the_eyes
+    muscle pain → muscle_pain
+    joint pain → joint_pain
+    bone pain → back_pain
+    Nausea → nausea
+    vomiting → vomiting
+    Rash → skin_rash
+
+3. Paralysis (Brain Hemorrhage) (NHLBI.NIH)
+
+    mild weakness → muscle_weakness
+    paralysis → weakness_of_one_body_side
+    numbness on one side of the face or body → no match found
+    headache → headache
+    sudden weakness → weakness_of_one_body_side
+    trouble seeing → blurred_and_distorted_vision
+    trouble speaking or understanding speech → altered_sensorium
+
+4. Pneumonia
+
+    Cough → cough
+    Fever → high_fever
+    Headache → headache
+    Malaise → malaise
+    Coryza without concomitant fever → phlegm, rusty_sputum, fast_heart_rate
+    Diarrhea → diarrhoea
+    Vomiting → vomiting
+    Wheezing → chest_pain, breathlessness
+
+5. Diabetes
+
+    Urinate (pee) a lot, often at night → polyuria
+    Are very thirsty → no match found
+    Lose weight without trying → weight_loss
+    Are very hungry → excessive_hunger, increased_appetite
+    Have blurry vision → blurred_and_distorted_vision
+    Have numb or tingling hands or feet → no match found
+    Feel very tired → fatigue
+    Have very dry skin → no match found
+    Have sores that heal slowly → no match found
+    Have more infections than usual → no match found
+
+6. Arthritis
+
+    joint pain → joint_pain, swelling_joints
+    stiffness → movement_stiffness, stiff_neck
+    Muscle pain → muscle_pain
+    Painful walking → painful_walking
+
+7. Migraine
+
+    headache → headache
+    nausea → nausea
+    dizziness → blurred_and_distorted_vision, visual_disturbances
+    fever → high_fever
+    general malaise → malaise, depression, irritability
+    bad stomach → acidity, indigestion
+
+8. Allergy
+
+    Itchy, watery eyes → itching and watering_from_eyes
+    Itchy nose → itching
+    Sneezing → continuous_sneezing
+    Runny nose → no match found
+    Rashes → skin_rash
+    Hives (a rash with raised red patches) → skin_rash
+    Stomach cramps → abdominal_pain
+    Vomiting → vomiting
+
+9. Typhoid
+
+    Fever → high_fever
+    Weakness → fatigue
+    Stomach pain → abdominal_pain
+    Headache → headache
+    Constipation or diarrhea → constipation and diarrhoea
+    Cough → cough
+    Loss of appetite → loss_of_appetite
+
+10. Chickenpox
+
+    rash → skin_rash
+    Fever → mild_fever
+    Tiredness → fatigue, lethargy
+    Loss of appetite → loss_of_appetite
+    Headache → headache
+    red spots → 'red_spots_over_body'
+    mild fever → mild_fever

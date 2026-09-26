@@ -1,0 +1,253 @@
+1. Malaria
+	fever 
+	headache
+	chills
+
+	severe anaemia
+	respiratory distress
+	metabolic acidosis
+	cerebral malaria
+-------------------------------------
+2. Dengue
+    	high fever (40°C/104°F)
+    	severe headache
+    	pain behind the eyes
+    	muscle and joint pains
+    	nausea
+    	vomiting
+    	swollen glands
+    	rash. 
+
+Severe Condition:
+	severe abdominal pain
+    	persistent vomiting
+   	rapid breathing
+    	bleeding gums or nose 
+    	fatigue
+    	restlessness
+    	blood in vomit or stool
+    	being very thirsty
+    	pale and cold skin
+    	feeling weak.
+---------------------------------------
+3. Paralysis (Brain Hemorrhage)
+	facial drooping
+	arm weakness on one side
+	speech difficulties - slurring or not making sense
+	changes in their vision
+	loss of balance/dizziness.
+---------------------------------------
+4. Pneumonia
+	Cough
+    	Shortness of breath
+    	Fever, sweating and shaking chills
+    	Fatigue
+    	Chest pain 
+    	Nausea
+	vomiting
+	diarrhea
+    	Confusion, especially in older adults
+--------------------------------------------
+5. Diabetes
+	feeling very thirsty
+    	needing to urinate more often than usual
+    	blurred vision
+    	feeling tired
+    	losing weight unintentionally 
+---------------------------------------------
+6. Arthritis
+	pain
+    	stiffness
+    	tenderness
+    	swelling
+	redness in one or more joints
+	fever
+	poor sleep quality
+	loss of appetite
+	depressive
+----------------------------------------------
+7. Migraine
+	headache, which is of moderate or severe intensity
+    	one-sided
+	pain behind the eye
+    	pulsating in quality
+    	aggravated by routine physical activity
+    	with duration of hours to 2–3 days;
+    	sensitivity to light and sounds; and
+    	nausea.
+------------------------------------------------
+8. Allergy
+	    a runny nose or sneezing.
+    	pain or tenderness around your cheeks, eyes or forehead.
+    	coughing, wheezing or breathlessness.
+    	itchy skin or a raised rash (hives)
+    	diarrhoea.
+    	feeling or being sick.
+    	swollen eyes, lips, mouth or throat. 
+----------------------------------------------
+9. Typhoid
+	prolonged high fever
+	fatigue
+	headache
+	nausea
+	abdominal pain
+	constipation
+	diarrhoea
+	rash.
+------------------------------------------
+10. Chickenpox
+	itchy
+	rash usually starting on the scalp and face
+	fever
+	malaise. 
+	(fever
+	poor sleep quality
+	loss of appetite
+	depressive)
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+
+*********** MAPING *****************
+1. Malaria
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    fever → high_fever
+    headache → headache
+    chills → chills
+    severe anaemia → muscle_pain, fatigue, weakness
+    respiratory distress → breathlessness
+    metabolic acidosis → 'nausea', 'diarrhoea'
+    cerebral malaria → fever, headache, vomiting, irritability
+
+
+2. Dengue
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    high fever (40°C/104°F) → high_fever
+    severe headache → headache
+    pain behind the eyes → pain_behind_the_eyes
+    muscle and joint pains → muscle_pain, joint_pain, back_pain
+    nausea → nausea
+    vomiting → vomiting
+    swollen glands → swelled_lymph_nodes
+    rash → skin_rash
+    severe abdominal pain → abdominal_pain
+    persistent vomiting → vomiting
+    rapid breathing → breathlessness
+    bleeding gums or nose → no match found
+    fatigue → fatigue
+    restlessness → restlessness
+    blood in vomit or stool → no match found
+    being very thirsty → no match found
+    pale and cold skin → no match found
+    feeling weak → muscle_weakness
+
+
+
+3. Paralysis (Brain Hemorrhage)
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    facial drooping → no match found
+    arm weakness on one side → weakness_of_one_body_side
+    speech difficulties - slurring or not making sense → altered_sensorium
+    changes in their vision → blurred_and_distorted_vision
+    loss of balance/dizziness → no match found
+
+
+
+4. Pneumonia
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    Cough → cough
+    Shortness of breath → breathlessness, fast_heart_rate
+    Fever, sweating and shaking chills → high_fever, sweating, shivering, chills, malaise
+    Fatigue → fatigue
+    Chest pain → chest_pain
+    phlegm → phlegm
+    vomiting → vomiting, rusty_sputum
+    diarrhea → diarrhoea
+    Confusion, especially in older adults → altered_sensorium
+
+
+5. Diabetes
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    feeling very hungry → excessive_hunger, increased_appetite
+    needing to urinate more often than usual → polyuria
+    blurred vision → blurred_and_distorted_vision
+    feeling tired → fatigue
+    losing weight unintentionally → weight_loss
+
+
+
+6. Arthritis
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    pain → joint_pain
+    stiffness → movement_stiffness
+    tenderness → joint_pain
+    swelling → swelling_joints
+    redness in one or more joints → no match found
+    fever → high_fever
+    poor sleep quality → no match found
+    loss of appetite → loss_of_appetite
+    depressive → depression
+
+
+
+7. Migraine
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    headache, which is of moderate or severe intensity → headache
+    one-sided → headache
+    pain behind the eye → pain_behind_the_eyes
+    pulsating in quality → headache
+    aggravated by routine physical activity → 'depression', 'irritability'
+    with duration of hours to 2–3 days → no match found
+    sensitivity to light and sounds → blurred_and_distorted_vision, visual_disturbances
+    nausea → nausea
+
+
+8. Allergy
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    a runny nose or sneezing → continuous_sneezing
+    pain or tenderness around your cheeks, eyes or forehead → no match found
+    coughing, wheezing or breathlessness → cough, breathlessness
+    itchy skin or a raised rash (hives) → itching, skin_rash
+    diarrhoea → diarrhoea
+    feeling or being sick → nausea, vomiting
+    swollen eyes, lips, mouth or throat → no match found
+
+
+
+9. Typhoid
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    prolonged high fever → high_fever
+    fatigue → fatigue
+    headache → headache
+    nausea → nausea
+    abdominal pain → abdominal_pain
+    constipation → constipation
+    diarrhoea → diarrhoea
+    rash → skin_rash
+
+
+
+10. Chickenpox
+Mapping of Fresh Symptoms to Trained Symptoms:
+
+    itchy → itching
+    rash usually starting on the scalp and face → skin_rash, red_spots_over_body
+    fever → mild_fever
+    malaise → malaise
+    (fever → mild_fever)
+    poor sleep quality → no match found
+    loss of appetite → loss_of_appetite
+    depressive → depression
+
