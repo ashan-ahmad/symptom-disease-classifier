@@ -13,13 +13,13 @@ def build_model(input_shape=(53,), num_classes=10):
     x = Dense(16, activation='relu', name="dense_1")(input_layer)
     x = Dropout(0.2, name="dropout_1")(x)
 
-    # Second hidden layer: 16 neurons, ReLU activation, 0.1 Dropout
+    # Second hidden layer: 16 neurons, ReLU activation, 0.2 Dropout
     x = Dense(16, activation='relu', name="dense_2")(x)
-    x = Dropout(0.1, name="dropout_2")(x)
+    x = Dropout(0.2, name="dropout_2")(x)
 
-    # Third hidden layer: 16 neurons, ReLU activation, 0.1 Dropout
+    # Third hidden layer: 16 neurons, ReLU activation, 0.2 Dropout
     x = Dense(16, activation='relu', name="dense_3")(x)
-    x = Dropout(0.1, name="dropout_3")(x)
+    x = Dropout(0.2, name="dropout_3")(x)
 
     # Output layer: 10 disease classes with softmax activation
     output_layer = Dense(num_classes, activation='softmax', name="output_layer")(x)
